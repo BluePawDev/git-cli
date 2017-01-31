@@ -242,7 +242,7 @@ Both of these will accomplish three steps:
 
 ## List Remotes
 
-$ git remote –v
+```$ git remote –v```
 
 The –v requests verbose output
 
