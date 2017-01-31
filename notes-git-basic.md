@@ -97,13 +97,13 @@ $ git diff –staged
 
 (use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)
 
-$ git reset HEAD LICENSE
+```$ git reset HEAD LICENSE```
 
 This will unstage only the LICENSE file
 
 HEADrefers to the last commit on the current branch (timeline) that we are on
 
-$ git reset HEAD
+```$ git reset HEAD```
 
 This will unstage all files
 
@@ -111,13 +111,13 @@ This will unstage all files
 
 This will blow away all changes since last commit
 
-$ git checkout -- &lt;file name&gt;
+```$ git checkout -- <file name>```
 
-$ git checkout -- LICENSE
+```$ git checkout -- LICENSE```
 
 ## Skip Staging and Commit
 
-$ git commit –a –m &quot;Modify LICENSE&quot;
+```$ git commit –a –m "Modify LICENSE"```
 
 This will add changes from all tracked files and commit them
 
@@ -127,7 +127,7 @@ NOTE: will not add any newly created (e.g. untracked) files
 
 **NOTE: do not perform after a**  **push**
 
-$ git reset --soft HEAD^
+```$ git reset --soft HEAD^```
 
 This will undo the last commit and move everything from that commit back into staging
 
@@ -139,11 +139,11 @@ If you forgot to add a file…?
 
 **NOTE: do not perform after a**  **push**
 
-$ git add &lt;file name&gt;
+```$ git add <file name>```
 
-$ git add todo.txt
+```$ git add todo.txt```
 
-$ git commit --amend –m &quot;Modify README.md and add todo.txt&quot;
+```$ git commit --amend –m "Modify README.md and add todo.txt"```
 
 Whatever has been staged will be amended to the last commit.
 
