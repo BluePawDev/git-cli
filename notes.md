@@ -6,15 +6,12 @@
 ## Command Line
 ```$ git help
 $ git help [command]
-
 $ git help config```
 
 ## Setting Up Git
-```$ git config --global user.name &quot;BluePawDev&quot;```
-
-```$ git config --global user.email jaruby@me.com```
-
-```$ git config --global color.ui true```
+```$ git config --global user.name &quot;BluePawDev&quot;
+$ git config --global user.email jaruby@me.com
+$ git config --global color.ui true```
 
 ## Starting a Repo
 
