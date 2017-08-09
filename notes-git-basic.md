@@ -1,23 +1,22 @@
-#Git Basics
-##What is Git
+# Git Basics
+## What is Git
 - Distributed Version Control System (DVCS) as opposed to a central repository
 - Official site: [git-scm.com](https://git-scm.com/)
 
 ## Command Line
-```$ git help```
+```$ git help
+$ git help [command]
 
-```$ git help [command]```
+$ git help config```
 
-```$ git help config```
-
-##Setting Up Git
+## Setting Up Git
 ```$ git config --global user.name &quot;BluePawDev&quot;```
 
 ```$ git config --global user.email jaruby@me.com```
 
 ```$ git config --global color.ui true```
 
-##Starting a Repo
+## Starting a Repo
 
 Creates local repo directory
 
@@ -31,10 +30,10 @@ Creates local repo directory
 
 ```$ git init```
 
-##Workflow
+## Workflow
 Create it (i.e. files) -&gt; stage it -&gt; commit it
 
-###Command Line
+### Command Line
 To check what&#39;s changed since last commit
 
 ```$ git status```
@@ -43,11 +42,11 @@ To check what&#39;s changed since last commit
 
 README.md is now staged
 
-###To commit:
+### To commit:
 
 ```$ git commit -m &quot;Create a README&quot;```
 
-###Adding Multiple Files to Staging
+### Adding Multiple Files to Staging
 
 ```$ git add README.md LICENSE```
 
@@ -61,13 +60,13 @@ To commit:
 
 ```$ git commit -m &quot;Add LICENSE and finish README&quot;```
 
-##Git Timeline History
+## Git Timeline History
 
 ```$ git log```
 
 NOTE: good practice to make commit notes in present tense opposed to past tense (e.g. &quot;create&quot; v. &quot;created&quot;)—think about what the commit does
 
-##Different Ways to Add
+## Different Ways to Add
 
 - List of files ```$ git add <list of files>```
 
